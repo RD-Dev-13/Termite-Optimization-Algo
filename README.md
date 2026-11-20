@@ -1,21 +1,5 @@
 # Termite-Inspired Swarm Intelligence for Optimization Problems
 
-This folder contains the LaTeX source, figures, tables, bibliography source, and an Overleaf-ready project archive for the IEEE conference paper.
-
-## Quick start: Overleaf
-
-The easiest way to import the complete paper is to upload [Overleaf_upload.zip](Overleaf_upload.zip) as a project.
-
-1. In Overleaf, select **New Project → Upload Project** and choose the ZIP.
-2. Confirm that main.tex is at the project root and the figures/ directory is beside it.
-3. Set main.tex as the main document if Overleaf did not select it automatically.
-4. Recompile.
-
-To update an existing Overleaf project instead, replace its main.tex and upload the whole figures/ directory while preserving the directory name. Then choose **Recompile from scratch** to remove stale .aux, .bbl, and other intermediate files before compiling again. Do not upload only main.tex: the figures are required.
-
-The document now has its IEEE-formatted references directly in main.tex using thebibliography. It does not invoke BibTeX, so a references.bib file or generated output.bbl is not required to compile. references.bib is kept in this folder as an editable bibliography source.
-
-The source compiled successfully in the built-in Codex LaTeX editor. That compiler confirms a successful build and displays an editor preview, but it does not export a standalone PDF into this folder. Overleaf creates the PDF when you compile the uploaded project.
 
 ## Main files
 
@@ -97,6 +81,6 @@ The notebook contains multiple ITSO implementations. The paper distinguishes the
 - The supplied bioinspired.pdf is an earlier conceptual manuscript that states that it contains no completed experiments. Its unverified placeholder reference was not reused.
 - The paper does not claim overall ITSO superiority. The observed best mean differs by benchmark: PSO leads on Sphere and Ackley, GA on Rastrigin, and ITSO on Rosenbrock.
 
-## Paper layout
+
 
 The source uses the IEEEtran conference class and keeps standard IEEE sizing and margins. Result tables are allowed to float within a column where possible, and a float barrier is placed before the Discussion so result figures and tables do not drift into the final discussion and references. The built-in editor compile succeeds. Check the final Overleaf PDF preview after upload to confirm that its page count and figure placement match your Overleaf compiler version.
