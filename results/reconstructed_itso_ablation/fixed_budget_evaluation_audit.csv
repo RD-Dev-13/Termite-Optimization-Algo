@@ -1,0 +1,18 @@
+Benchmark,Configuration,mean,min,max
+Ackley,Full ITSO,9142.0,9135,9147
+Ackley,Without Alates,9143.1,9135,9150
+Ackley,Without Memory,9144.6,9123,9150
+Ackley,Without Queen,9138.2,9132,9150
+Rastrigin,Full ITSO,9140.1,9123,9150
+Rastrigin,Without Alates,9138.8,9123,9150
+Rastrigin,Without Memory,9138.5,9123,9150
+Rastrigin,Without Queen,9136.1,9123,9150
+Rosenbrock,Full ITSO,9131.9,9123,9150
+Rosenbrock,Without Alates,9132.1,9123,9150
+Rosenbrock,Without Memory,9137.3,9129,9144
+Rosenbrock,Without Queen,9133.8,9123,9150
+Sphere,Full ITSO,9144.2,9135,9150
+Sphere,Without Alates,9144.9,9138,9150
+Sphere,Without Memory,9137.7,9123,9150
+Sphere,Without Queen,9142.7,9135,9150
+
