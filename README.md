@@ -1,15 +1,6 @@
 # Termite-Inspired Swarm Intelligence for Optimization Problems
 
 
-## Main files
-
-- [main.tex](main.tex) — IEEEtran conference-format paper source.
-- [Overleaf_upload.zip](Overleaf_upload.zip) — minimal, self-contained Overleaf project: main.tex, required PDF figures, setup notes, and the editable bibliography source.
-- [OVERLEAF_SETUP.txt](OVERLEAF_SETUP.txt) — concise Overleaf upload instructions.
-- [references.bib](references.bib) — bibliography metadata for editing; the current LaTeX source contains the formatted references inline.
-- figures/ — publication figures in PDF, SVG, and PNG formats. The PDF versions are referenced by main.tex; SVG and PNG files are convenient for previews and further editing.
-- tables/ — CSV result summaries and LaTeX row extracts retained for auditing and reuse.
-- main.log — compiler log from a previous build; it is not needed in the Overleaf archive.
 
 ## Figures
 
